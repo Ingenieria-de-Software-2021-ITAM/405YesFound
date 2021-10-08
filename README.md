@@ -6,7 +6,8 @@
 3. [External Interface Requirement](#external-interface-requirement)
 4. [System Features](#system-features)
 5. [Other Nonfunctional Requirements](#other-nonfunctional-requirements)
-
+6. [Other Requirements](#other-requirements)
+7. [Appendix](#appendix)
 ## 1. Introduction <a name="introduction"></a>
 ### 1.1 Purpose
 <Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.>
@@ -116,5 +117,21 @@ Specify any requirements regarding security or privacy issues surrounding use of
 <Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.>
 
 ### 5.5 Business Rules
+List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
 
-<List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
+## 6. Other Requirements <a name="other-requirements"></a>
+
+Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
+
+## Appendix <a name="appendix"></a>
+### Appendix A: Glossary
+
+<Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
+
+### Appendix B: Analysis Models
+
+<Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.>
+
+### Appendix C: To Be Determined List
+
+<Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
