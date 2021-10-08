@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Overall Descriptio](#overall-descriptio)
 3. [External Interface Requirement](#external-interface-requirement)
-4. [System Features](#system-features
+4. [System Features](#system-features)
 
 
 ## 1. Introduction
