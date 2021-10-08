@@ -1,6 +1,5 @@
 # 405YesFound
 
-=======
 ## Participantes:
 
 1. Mariano Franco
