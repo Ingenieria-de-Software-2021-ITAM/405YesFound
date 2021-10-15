@@ -22,3 +22,11 @@ Each requirement should be uniquely identified with a sequence number or a meani
 REQ-1:
 
 REQ-2:
+
+
+|Subsistema|Tamaño Actual de login|Tamaño estimado de cambio de contraseña segura|Factor de Multiplicación|
+|-|-|-|-|
+|Database|1 tabla|2 tablas|2|
+|Interfaz|1 página web|3 páginas web|2|
+|API Token|0 páginas|1 servicio|1|
+
