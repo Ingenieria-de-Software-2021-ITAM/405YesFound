@@ -14,7 +14,16 @@ de los usuarios. El riesgo es alto si una persona ajena a la organización entra
 credenciales de otra persona.
 
 ## 4.1.2 Stimulus/Response Sequences
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+
+Stimulus:
+Response:
+
+Stimulus:
+Response:
+
+Stimulus:
+Response:
+
 
 ## 4.1.3 Functional Requirements
 <Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
