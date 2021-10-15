@@ -15,13 +15,16 @@ credenciales de otra persona.
 
 ## 4.1.2 Stimulus/Response Sequences
 
+Stimulus: Usuario hace en request de cambio de contraseña.
+
+Response: El sistema abre una página de cambio de contraseña.
+
 Stimulus:
+
 Response:
 
 Stimulus:
-Response:
 
-Stimulus:
 Response:
 
 
