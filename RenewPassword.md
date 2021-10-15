@@ -1,8 +1,5 @@
 # 4. System Features
-<This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product.
-You may prefer to organize this section by use case, mode of operation, 
-user class, object class, functional hierarchy, or combinations of these, 
-whatever makes the most logical sense for your product.>
+![alt text](https://github.com/Ingenieria-de-Software-2021-ITAM/405YesFound/blob/master/others/diag.PNG?raw=true)
 
 ## 4.1 Renovación de contraseña segura
 
