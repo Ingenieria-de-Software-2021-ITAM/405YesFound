@@ -1,5 +1,5 @@
 # 4. System Features
-![alt text](https://github.com/Ingenieria-de-Software-2021-ITAM/405YesFound/blob/master/others/diag.PNG?raw=true)
+![alt text](https://github.com/Ingenieria-de-Software-2021-ITAM/405YesFound/blob/master/others/mockup.jpeg?raw=true)
 
 ## 4.1 Renovación de contraseña segura
 
