@@ -8,14 +8,10 @@ whatever makes the most logical sense for your product.>
 
 ## 4.1.1 Description and Priority
 
-
+Debido al creciente aumento de los ciberataques(México es el lugar 9 con más ataques en el mundo) se deicidió implementar este feature para disminuir la amenaza de ataque, pues el cambio constante de contraseña reduce esta vulnerabilidad.
 Es una tarea de alta prioridad, pues está relacionada con la seguridad de la información 
 de los usuarios. El riesgo es alto si una persona ajena a la organización entra con las 
 credenciales de otra persona.
-<Provide a short description of the feature and indicate whether it is of High, 
-Medium, or Low priority. You could also include specific priority component ratings, 
-such as benefit, penalty, cost, and risk 
-(each rated on a relative scale from a low of 1 to a high of 9).>
 
 ## 4.1.2 Stimulus/Response Sequences
 List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
