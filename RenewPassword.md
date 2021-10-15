@@ -12,7 +12,7 @@ credenciales de otra persona.
 
 ## 4.1.2 Stimulus/Response Sequences
 
-Stimulus: Usuario hace en request de cambio de contraseña.
+Stimulus: El usuario intenta hacer login en Comunidad ITAM.
 
 Response: El sistema abre una página de cambio de contraseña.
 
