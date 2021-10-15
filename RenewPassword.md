@@ -17,7 +17,7 @@ credenciales de otra persona.
 List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
 
 ## 4.1.3 Functional Requirements
-El usuario debe de tener acceso a un sistema que le permita generar un token a partir de información que solo el usuario tiene. Si el usuario no introduce la información válida el sistema de token lo permitirá obtenerlo. Es necesario el usuario y contraseña, y posteriormente el token y una nueva contraseña que cumpla con los requisitos de seguridad para que se permita cambiar la contraseña. 
+El usuario debe de tener acceso a un sistema que le permita generar un token a partir de información que solo el usuario tiene. Si el usuario no introduce la información válida el sistema de token no le permitirá obtenerlo. Es necesario el usuario y contraseña, y posteriormente el token y una nueva contraseña que cumpla con los requisitos de seguridad para que se permita cambiar la contraseña. 
 Después de cierto tiempo sin cambiar de contraseña será obligatorio cambiarla para poder entrar a la página y se avisará desde dos semanas antes.
 
 
