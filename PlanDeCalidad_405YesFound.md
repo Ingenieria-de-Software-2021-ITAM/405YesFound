@@ -12,10 +12,10 @@
 # 1. Test plan identifier <a name="testplan"></a>
 El test plan identifier de este documento es M-1.0
 
-El identificador tendrá la siguiente estructura.
+El identificador tiene la siguiente estructura:
 - T-V.SubV
 
-donde cada uno representa lo siguiente:
+donde cada elemento representa lo siguiente:
 
 - T es el tipo de plan (Master, Level, Integration)
 - V es la versión
