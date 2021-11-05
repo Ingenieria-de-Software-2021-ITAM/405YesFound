@@ -10,18 +10,6 @@
 
 
 # 1. Test plan identifier <a name="testplan"></a>
-El test plan identifier de este documento es M-1.0
-
-El identificador tiene la siguiente estructura:
-- T-V.SubV
-
-donde cada elemento representa lo siguiente:
-
-- T es el tipo de plan (Master, Level, Integration)
-- V es la versión
-- Subversion es la subversión cada vez que hay cambios pequeños
-
-
 # 2. References<a name="testplan"></a>
 # 3. Introduction<a name="intro"></a>
 # 5. Software Risk Issues<a name="risk"></a>
@@ -30,5 +18,12 @@ donde cada elemento representa lo siguiente:
 - Seguridad: Seguridad de la información, de las contraseñas y de los datos personales.
 
 # 6. Features to be tested<a name="featuretest"></a>
+- Pruebas de estrés loggin: Alta
+- Pruebas de flujo de usuarios: Alta
+- Pruebas de bases de datos: Alta
+- Prueba de conectividad entre páginas: Media
+- Prueba de prototipos: Baja 
 # 7. Features not to be tested<a name="approach"></a>
+- Pruebas de diseño
+
 
