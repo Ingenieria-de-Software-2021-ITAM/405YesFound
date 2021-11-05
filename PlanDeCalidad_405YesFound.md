@@ -24,6 +24,8 @@ donde cada elemento representa lo siguiente:
 
 # 2. References<a name="testplan"></a>
 # 3. Introduction<a name="intro"></a>
+El propósito de este plan es verificar las funcionalidades nuevas que se implementarán a la página de inscripciones del ITAM. El método y proceso de pruebas se describe a continuación.
+
 # 5. Software Risk Issues<a name="risk"></a>
 - Precisión de la información: No se le puede mostrar a andie información de alguien más sin que se la comparta.
 - Múltiples interfaces: Se debe tener una interfaz diferente para los alumnos, otra distinta para los maestros y también para personas con menos o más permisos
