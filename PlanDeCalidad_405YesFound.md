@@ -10,6 +10,18 @@
 
 
 # 1. Test plan identifier <a name="testplan"></a>
+El test plan identifier de este documento es M-1.0
+
+El identificador tendrá la siguiente estructura.
+- T-V.SubV
+
+donde cada uno representa lo siguiente:
+
+- T es el tipo de plan (Master, Level, Integration)
+- V es la versión
+- Subversion es la subversión cada vez que hay cambios pequeños
+
+
 # 2. References<a name="testplan"></a>
 # 3. Introduction<a name="intro"></a>
 # 5. Software Risk Issues<a name="risk"></a>
