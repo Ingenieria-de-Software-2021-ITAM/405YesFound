@@ -9,13 +9,17 @@
 6. [Otros Requerimientos](#other-requirements)
 7. [Apéndice](#appendix)
 
-## 1. Introduction <a name="introduction"></a>
-### 1.1 Purpose
-<Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.>
+## 1. Introducción <a name="introduction"></a>
+### 1.1 Propósito
+El propósito de este documento es la creación de una aplicación para el Instituto Tecnológico Autónomo de México que permita que los y las estudiantes de la universidad voten para elegir proyectos que se llevarán a cabo dentro de la institución. El objetivo principal es ayudar a facilitar la elección de proyectos nuevos.
 
-### 1.2 Document Conventions
+### 1.2 Convenciones del Documento
 
-<Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting that have special significance. For example, state whether priorities for higher-level requirements are assumed to be inherited by detailed requirements, or whether every requirement statement is to have its own priority.>
+|Término|Convención|
+|---|---|---|
+|Instituto Tecnológico Autónomo de México|ITAM|
+|Base de Datos|BD|
+|Cosa|Coso|
 
 ### 1.3 Intended Audience and Reading Suggestions
 
