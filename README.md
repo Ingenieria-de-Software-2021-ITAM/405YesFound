@@ -1,13 +1,14 @@
-# Software Requirements Specification for 405 Yes Found
+# Software Requirements Specification
 
-# Table of Contents
-1. [Introduction](#introduction)
-2. [Overall Description](#overall-description)
-3. [External Interface Requirement](#external-interface-requirement)
-4. [System Features](#system-features)
-5. [Other Nonfunctional Requirements](#other-nonfunctional-requirements)
-6. [Other Requirements](#other-requirements)
-7. [Appendix](#appendix)
+# Tabla de Contenido
+1. [Introducción](#introduction)
+2. [Descripción General](#overall-description)
+3. [Requerimiento de Interfaz Externo](#external-interface-requirement)
+4. [Features del Sistema](#system-features)
+5. [Otros Requerimientos No-Funcionales](#other-nonfunctional-requirements)
+6. [Otros Requerimientos](#other-requirements)
+7. [Apéndice](#appendix)
+
 ## 1. Introduction <a name="introduction"></a>
 ### 1.1 Purpose
 <Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system or a single subsystem.>
@@ -100,7 +101,7 @@ REQ-2:
 
 ### 4.2 System Feature 2 (and so on)
 
-## 5. Other Nonfunctional Requirements<a name="other-nonfunctional-requirements"></a>
+## 5. Otros Requerimientos No-Fucnionales<a name="other-nonfunctional-requirements"></a>
 
 ### 5.1 Performance Requirements
 If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
@@ -119,19 +120,19 @@ Specify any requirements regarding security or privacy issues surrounding use of
 ### 5.5 Business Rules
 List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
 
-## 6. Other Requirements <a name="other-requirements"></a>
+## 6. Otros Requerimientos <a name="other-requirements"></a>
 
 Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
 
-## Appendix <a name="appendix"></a>
-### Appendix A: Glossary
+## Apéndice <a name="appendix"></a>
+### Apéndice A: Glosario
 
 <Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
 
-### Appendix B: Analysis Models
+### Apéndice B: Modelos de Análisis
 
 <Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.>
 
-### Appendix C: To Be Determined List
+### Apéndice C: Lista de "To be determined"
 
 <Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
