@@ -33,16 +33,16 @@ El propósito de esta aplicación es facilitar la votación y elección de proye
 
 1.
 
-## 2. Overall Description<a name="overall-description"></a>
-### 2.1 Product Perspective
+## 2. Descripción General<a name="overall-description"></a>
+### 2.1 Perspectiva del Producto
 
 <Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.>
 
-### 2.2 Product Functions
+### 2.2 Funciones del Producto
 
 <Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.>
 
-### 2.3 User Classes and Characteristics
+### 2.3 Clases de Usuario y Características
 
 <Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.>
 
