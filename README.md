@@ -22,6 +22,7 @@ El propósito de este documento es la creación de una aplicación para el Insti
 | Base de Datos | BD |
 | Cosa | Coso |
 
+
 ### 1.3 Intended Audience and Reading Suggestions
 
 <Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.>
