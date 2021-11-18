@@ -16,11 +16,11 @@ El propósito de este documento es la creación de una aplicación para el Insti
 ### 1.2 Convenciones del Documento
 
 
-| Término | Convención |
-| --- | --- | --- |
-| Instituto Tecnológico Autónomo de México | ITAM |
-| Base de Datos | BD |
-| Cosa | Coso |
+| Término  | Convención  |
+|---|---|
+| Instituto Tecnológico Autónomo de México  | ITAM  |
+| Base de Datos  | BD  |
+| Cosa  | Coso  |
 
 
 ### 1.3 Intended Audience and Reading Suggestions
