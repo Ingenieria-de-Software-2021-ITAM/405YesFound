@@ -27,7 +27,7 @@ Este documento esta destinado a desarolladores, project managers y a usuarios. E
 
 ### 1.4 Definición (Scope) del Producto
 
-El propósito de este sistema es facilitar la votación y elección de proyectos propuestos por la administración del ITAM. Se requiere que sea conveniente y fácil de usar. Adicionalmente permite que el cuerpo estudiantil participe de manera más activa en la toma de decisiones dentro de su universidad, fomentando un ambiente democrático.
+El propósito de esta aplicación es facilitar la votación y elección de proyectos propuestos por la administración del ITAM. Se requiere que sea conveniente y fácil de usar. Adicionalmente permite que el cuerpo estudiantil participe de manera más activa en la toma de decisiones dentro de su universidad, fomentando un ambiente democrático.
 
 ### 1.5 Referencias
 
