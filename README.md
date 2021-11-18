@@ -15,25 +15,24 @@ El propósito de este documento es la creación de una aplicación para el Insti
 
 ### 1.2 Convenciones del Documento
 
-
 | Término  | Convención  |
 |---|---|
 | Instituto Tecnológico Autónomo de México  | ITAM  |
 | Base de Datos  | BD  |
 | Cosa  | Coso  |
 
+### 1.3 Audiencia Destinataria y Sugerencias de Lectura
 
-### 1.3 Intended Audience and Reading Suggestions
+Este documento esta destinado a desarolladores, project managers y a usuarios. Es útil tanto para los estudiantes como para los integrantes de la administración del ITAM que desean publicar proyectos dentro de la plataforma. Para aquellos con tiempo, sugerimos que lean el documento de principio a fin. Para aquellos con menos tiempo, la sección mas pertinente es la de [Features del Sistema](#system-features).
 
-<Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most pertinent to each reader type.>
+### 1.4 Definición (Scope) del Producto
 
-### 1.4 Product Scope
+El propósito de este sistema es facilitar la votación y elección de proyectos propuestos por la administración del ITAM. Se requiere que sea conveniente y fácil de usar. Adicionalmente permite que el cuerpo estudiantil participe de manera más activa en la toma de decisiones dentro de su universidad, fomentando un ambiente democrático.
 
-<Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it rather than duplicating its contents here.>
+### 1.5 Referencias
 
-### 1.5 References
+1.
 
-<List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.>
 ## 2. Overall Description<a name="overall-description"></a>
 ### 2.1 Product Perspective
 
