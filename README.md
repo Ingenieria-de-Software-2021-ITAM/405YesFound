@@ -15,6 +15,7 @@ El propósito de este documento es la creación de una aplicación para el Insti
 
 ### 1.2 Convenciones del Documento
 
+
 | Término | Convención |
 | --- | --- | --- |
 | Instituto Tecnológico Autónomo de México | ITAM |
