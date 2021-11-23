@@ -67,32 +67,31 @@ El entorno de operación del sistema de votación esta listado debajo:
 
 1. Los commandos de Derby para los queries e aplicaciones del producto.
 2. Políticas de confidencialidad de datos de la institución (ITAM).
-3. 
+3. Limitaciónes de una BD distribuida (mayor complejidad).
 
 ### 2.6 Suposiciones y Dependencias
 
 1. La creación de este sistema opera bajo la suposición de que el ITAM tiene una BD con las claves únicas y los NIPs de cada alumno del ITAM. Sin esta BD el producto se vería afectado y se tendría que generar una BD de usuarios para constituir los logins.
 2. Adicionalmente, se trabaja bajo la suposición de que dicha BD contiene información para verificar que el alumno sigue inscrito en el ITAM.
 
-## 3. External Interface Requirement<a name="external-interface-requirement"></a>
-### 3.1 User Interfaces
+## 3. Requerimiento de Interfaz Externo<a name="external-interface-requirement"></a>
+### 3.1 Interfaces de Usuario
 
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
 
-### 3.2 Hardware Interfaces
+### 3.2 Intergaces de Hardware
 
 <Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
 
-### 3.3 Software Interfaces
+### 3.3 Interfaces de Software
 
 <Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
 
-### 3.4 Communications Interfaces
+### 3.4 Interfaces de Comunicación
 
 <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
 
-## 4. System Features<a name="system-features"></a>
-<This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, or combinations of these, whatever makes the most logical sense for your product.>
+## 4. Features del Sistema<a name="system-features"></a>
 
 ### 4.1 System Feature 1
 
