@@ -38,29 +38,43 @@ El propósito de esta aplicación es facilitar la votación y elección de proye
 
 El propósito de este producto es proveer a los estudiantes del ITAM con más facultades para influir en el proceso de decisiones de la administración de la institución. Este producto existe dentro del contexto de una variedad de aplicaciones que utilizán los estudiantes del ITAM, las dos más importantes siendo Canvas y Grace. Este producto sería un producto nuevo y autónomo, pero que utilizaría el mismo login usuario y password que el sistema de Grace. El username siendo la clave única del estudiante mientras que el password incial sería el NIP que recibes al ingresar a la universidad en primer semestre.
 
-<Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.>
-
 ### 2.2 Funciones del Producto
 
-<Summarize the major functions the product must perform or must let the user perform. Details will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here. Organize the functions to make them understandable to any reader of the SRS. A picture of the major groups of related requirements and how they relate, such as a top level data flow diagram or object class diagram, is often effective.>
+El producto tendrá dos tipos de usuarios, estudiante y administrador. 
+
+Funciones de Estudiante:
+- Login a su cuenta.
+- Votar por el proyecto deseado.
+- Observar los resultados de una votación.
+
+Funciones de Administrador:
+- Login a su cuenta.
+- Comenzar una campaña nueva de votación.
+- Añadir opciones a una campaña de votación (con nombre, descripción y/o imágenes).
+- Concluir una campaña de votación.
+- Observar los resultados de una votación.
 
 ### 2.3 Clases de Usuario y Características
 
-<Identify the various user classes that you anticipate will use this product. User classes may be differentiated based on frequency of use, subset of product functions used, technical expertise, security or privilege levels, educational level, or experience. Describe the pertinent characteristics of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from those who are less important to satisfy.>
+Como fue mencionado previamente, habrá dos tipos de usuarios: estudiante y administrador. Es más importante satisfacer las necesidades del usuario tipo estudiante ya que habrá mucho más usuarios en esta categoría. El usuario administrador debería tener acceso a todas las funciones del producto.
 
-### 2.4 Operating Environment
+### 2.4 Entorno de Operación
 
-<Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.>
+El entorno de operación del sistema de votación esta listado debajo:
 
-### 2.5 Design and Implementation Constraints
+- BD distribuida
+- sistema tipo client/server
+- Sistema Operativo: Windows
+- BD: SQL
+- Plataforma: 
 
-<Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).>
+### 2.5 Limitaciones de Diseño e Implementación
 
-### 2.6 User Documentation
+1. Los commandos de SQL para los queries e aplicaciones del producto.
+2. Políticas de confidencialidad de datos de la institución (ITAM).
+3. 
 
-<List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.>
-
-### 2.7 Assumptions and Dependencies
+### 2.6 Assumptions and Dependencies
 
 <List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
 
