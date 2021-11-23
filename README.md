@@ -62,12 +62,15 @@ El entorno de operación del sistema de votación esta listado debajo:
 - Sistema Operativo: Windows
 - BD: Derby
 - Plataforma: Java/JavaScript
+- Arquitectura: Microservicios y Space-Based.
 
 ### 2.5 Limitaciones de Diseño e Implementación
 
 1. Los commandos de Derby para los queries e aplicaciones del producto.
 2. Políticas de confidencialidad de datos de la institución (ITAM).
-3. Limitaciónes de una BD distribuida (mayor complejidad).
+3. Limitaciones de una BD distribuida (mayor complejidad).
+4. Limitaciones de una arquitectura de Microservicios (performance).
+5. Limitaciones de una arquitectura Space-Based (testability y development).
 
 ### 2.6 Suposiciones y Dependencias
 
@@ -79,7 +82,7 @@ El entorno de operación del sistema de votación esta listado debajo:
 
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
 
-### 3.2 Intergaces de Hardware
+### 3.2 Interfaces de Hardware
 
 <Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
 
