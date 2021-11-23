@@ -7,7 +7,6 @@
 4. [Features del Sistema](#system-features)
 5. [Otros Requerimientos No-Funcionales](#other-nonfunctional-requirements)
 6. [Otros Requerimientos](#other-requirements)
-7. [Apéndice](#appendix)
 
 ## 1. Introducción <a name="introduction"></a>
 ### 1.1 Propósito
@@ -28,10 +27,6 @@ Este documento esta destinado a desarolladores, project managers y a usuarios. E
 ### 1.4 Definición (Scope) del Producto
 
 El propósito de esta aplicación es facilitar la votación y elección de proyectos propuestos por la administración del ITAM. Se requiere que sea conveniente y fácil de usar. Adicionalmente permite que el cuerpo estudiantil participe de manera más activa en la toma de decisiones dentro de su universidad, fomentando un ambiente democrático.
-
-### 1.5 Referencias
-
-1.
 
 ## 2. Descripción General<a name="overall-description"></a>
 ### 2.1 Perspectiva del Producto
@@ -63,20 +58,21 @@ Como fue mencionado previamente, habrá dos tipos de usuarios: estudiante y admi
 El entorno de operación del sistema de votación esta listado debajo:
 
 - BD distribuida
-- sistema tipo client/server
+- Sistema tipo Client/Server
 - Sistema Operativo: Windows
-- BD: SQL
-- Plataforma: 
+- BD: Derby
+- Plataforma: Java/JavaScript
 
 ### 2.5 Limitaciones de Diseño e Implementación
 
-1. Los commandos de SQL para los queries e aplicaciones del producto.
+1. Los commandos de Derby para los queries e aplicaciones del producto.
 2. Políticas de confidencialidad de datos de la institución (ITAM).
 3. 
 
-### 2.6 Assumptions and Dependencies
+### 2.6 Suposiciones y Dependencias
 
-<List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
+1. La creación de este sistema opera bajo la suposición de que el ITAM tiene una BD con las claves únicas y los NIPs de cada alumno del ITAM. Sin esta BD el producto se vería afectado y se tendría que generar una BD de usuarios para constituir los logins.
+2. Adicionalmente, se trabaja bajo la suposición de que dicha BD contiene información para verificar que el alumno sigue inscrito en el ITAM.
 
 ## 3. External Interface Requirement<a name="external-interface-requirement"></a>
 ### 3.1 User Interfaces
@@ -144,16 +140,3 @@ List any operating principles about the product, such as which individuals or ro
 ## 6. Otros Requerimientos <a name="other-requirements"></a>
 
 Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
-
-## Apéndice <a name="appendix"></a>
-### Apéndice A: Glosario
-
-<Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
-
-### Apéndice B: Modelos de Análisis
-
-<Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.>
-
-### Apéndice C: Lista de "To be determined"
-
-<Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.>
