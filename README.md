@@ -36,6 +36,8 @@ El propósito de esta aplicación es facilitar la votación y elección de proye
 ## 2. Descripción General<a name="overall-description"></a>
 ### 2.1 Perspectiva del Producto
 
+El propósito de este producto es proveer a los estudiantes del ITAM con más facultades para influir en el proceso de decisiones de la administración de la institución. Este producto existe dentro del contexto de una variedad de aplicaciones que utilizán los estudiantes del ITAM, las dos más importantes siendo Canvas y Grace. Este producto sería un producto nuevo y autónomo, pero que utilizaría el mismo login usuario y password que el sistema de Grace. El username siendo la clave única del estudiante mientras que el password incial sería el NIP que recibes al ingresar a la universidad en primer semestre.
+
 <Describe the context and origin of the product being specified in this SRS. For example, state whether this product is a follow-on member of a product family, a replacement for certain existing systems, or a new, self-contained product. If the SRS defines a component of a larger system, relate the requirements of the larger system to the functionality of this software and identify interfaces between the two. A simple diagram that shows the major components of the overall system, subsystem interconnections, and external interfaces can be helpful.>
 
 ### 2.2 Funciones del Producto
