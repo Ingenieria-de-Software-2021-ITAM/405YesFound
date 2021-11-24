@@ -17,7 +17,6 @@ El propósito de este documento es la creación de una aplicación para el Insti
 |---|---|
 | Instituto Tecnológico Autónomo de México  | ITAM  |
 | Base de Datos  | BD  |
-| Cosa  | Coso  |
 
 ### 1.3 Audiencia Destinataria y Sugerencias de Lectura
 
@@ -156,7 +155,7 @@ Esta funcionalidad se refiere a que un usuario, del tipo estudiante, pueda votar
 
 **REQ-2-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
-**REQ-2-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de votos, que registra cuantos votos recibe cada proyecto.
+**REQ-2-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de votos/proyectos, que registra cuantos votos recibe cada proyecto.
 
 **REQ-2-3:** El sistema no permite que el mismo usuario vote más de una vez.
 
@@ -176,11 +175,27 @@ Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda a�
 
 **REQ-3-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
-**REQ-3-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de proyectos, que registra las características de cada proyecto.
+**REQ-3-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de votos/proyectos, que registra las características de cada proyecto y los votos que tienen, previamente mencionada en REQ-2-2.
 
 **REQ-3-3:** El sistema solo permite que los usuarios tipo administrador utilizen esta funcionalidad.
 
 **REQ-3-4** Para permanecer apegado al requerimiento de **autorización**, el sistema verifica, con la BD mencionada en REQ-3-1, que el usuario es del tipo administrador, antes de llevar a cabo cambios.
+
+### 4.4 Feature 4: Observación de Resultados
+
+#### 4.4.1 Descripción y Prioridad
+
+Esta funcionalidad se refiere a que un usuario pueda observar los resultados de una contienda de votaciones. Esta visualización se llevaría a cabo en una gráfica circular. Esta funcionalidad tiene prioridad media o de tipo 2 ya que no es completamente indispensable para que el producto haga lo que debe de hacer. En teoría, un administrador de BD podría observar los resultados de una contienda sin esta funcionalidad. Sin embargo, es una funcionalidad de alta conveniencia para todos los usuarios.
+
+#### 4.4.2 Secuencias de Estímulo/Respuesta
+
+| Estímulo  | Respuesta  |
+|---|---|
+| El usuario presiona "Resultados" en el menú superior de la aplicación.| El producto lleva al usuario a la página de "Resultados" donde se despliega una gráfica circular con los resultados de la contienda.  |
+
+#### 4.4.3 Requerimientos Funcionales
+
+**REQ-4-1:** El sistema tiene acceso a la BD de votos/proyectos de la aplicación, previamente mencionada en REQ-2-2.
 
 ## 5. Otros Requerimientos No-Funcionales<a name="other-nonfunctional-requirements"></a>
 
