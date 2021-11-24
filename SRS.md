@@ -129,8 +129,7 @@ Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrado
 
 | Estímulo  | Respuesta  |
 |---|---|
-| El usuario ingresa su nombre de usuario (clave única) y contraseña (NIP) en los renglones correspondientes. Presiona el botón "entrar." | El producto lleva a la página de inicio de la aplicación. El producto lo tiene identificado como el usuario correspondiente al nombre de usuario y contraseña ingresadas.  |
-
+| El usuario ingresa su nombre de usuario (clave única) y contraseña (NIP) en los renglones correspondientes. Presiona el botón "Entrar." | El producto lleva al usuario a la página de inicio de la aplicación. El producto lo tiene identificado como el usuario correspondiente a la tupla de nombre de usuario y contraseña ingresada.  |
 
 ### 4.1.3 Requerimientos Funcionales
 
@@ -146,41 +145,43 @@ Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrado
 
 ### 4.2.1 Descripción y Prioridad
 
-<Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
+Esta funcionalidad se refiere a que un usuario, del tipo estudiante, pueda votar a favor de el proyecto que deseé. Evidentemente, esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que el producto haga lo que debe de hacer.
 
 ### 4.2.2 Secuencias de Estímulo/Respuesta
 
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+| Estímulo  | Respuesta  |
+|---|---|
+| El usuario ingresa su clave única a una caja de texto, elige el proyecto deseado de un "drop-down list" y presiona el botón de "Votar". | El producto registra el voto del usuario dentro de la BD y despliega un mensaje de confirmación.  |
 
 ### 4.2.3 Requerimientos Funcionales
 
-<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+**REQ-2-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
-Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+**REQ-2-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de votos, que registra cuantos votos recibe cada proyecto.
 
-REQ-1:
-
-REQ-2:
+**REQ-2-3:** El sistema no permite que el mismo usuario vote más de una vez.
 
 ### 4.3 Feature 3: Crear proyectos nuevos
 
 ### 4.3.1 Descripción y Prioridad
 
-<Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
+Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda añadir un proyecto nuevo a una contienda existente. El administrador debe poder asignar un nombre, descripción breve, descripción completa e imágen a las caracterísitcas de dicho proyecto nuevo, para que los usuarios estudiantes entiendan por qué proyecto están votando. Evidentemente, esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que el producto haga lo que debe de hacer. Sin esta funcionalidad los usuarios tipo estudiante no podrían votar por algún proyecto.
 
 ### 4.3.2 Secuencias de Estímulo/Respuesta
 
-List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+| Estímulo  | Respuesta  |
+|---|---|
+| Dentro de las cajas de texto correspondientes, el usuario ingresa el nombre del proyecto, la contienda, la descripción breve, y la descripción completa del proyecto. El usuario presiona el botón "Registrar proyecto". | El producto añade el proyecto nuevo y sus características a la base de datos de proyectos y lo despliega en la contienda especificada. Ahora los usuarios tipo estudiante podrán votar por dicho proyecto.  |
 
 ### 4.3.3 Requerimientos Funcionales
 
-<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+**REQ-3-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
-Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+**REQ-3-2:** El sistema tiene acceso (con habilidad para modificar) a la BD de proyectos, que registra las características de cada proyecto.
 
-REQ-1:
+**REQ-3-3:** El sistema solo permite que los usuarios tipo administrador utilizen esta funcionalidad.
 
-REQ-2:
+**REQ-3-4** Para permanecer apegado al requerimiento de **autorización**, el sistema verifica, con la BD mencionada en REQ-3-1, que el usuario es del tipo administrador, antes de llevar a cabo cambios.
 
 ## 5. Otros Requerimientos No-Fucnionales<a name="other-nonfunctional-requirements"></a>
 
