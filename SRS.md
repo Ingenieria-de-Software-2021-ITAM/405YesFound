@@ -199,21 +199,21 @@ Esta funcionalidad se refiere a que un usuario pueda observar los resultados de 
 
 ## 5. Otros Requerimientos No-Funcionales<a name="other-nonfunctional-requirements"></a>
 
-### 5.1 Performance Requirements
+### 5.1 Requerimientos de Rendimiento
 
-If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
+Estos requerimientos se aseguran que la aplicación funcione como debe funcionar sin que se reduzca su desempeño. Es importante que consideremos que habrá periodos dondé el sistema tiene a muchos usuarios en línea, como cuando se acerque la fecha límite para ingresar votos, y que también habrá periodos dondé el sistema tendrá a una cantidad de usuarios activos cercana a cero. Para los periodos de mucha actividad de usuarios sería inteligente implementar un "load balancer" para distribuir los request que se mandan al servidor y evitar que se junten todos. Igualmente sería importante consider que el techo para el número de usuarios en línea sería el número de estudiantes en el ITAM.
 
-### 5.2 Safety Requirements
+### 5.2 Requerimientos de Protección
 
 <Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.>
 
-### 5.3 Security Requirements
+### 5.3 Requerimientos de Seguridad
 
 Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
 
-### 5.4 Software Quality Attributes
+### 5.4 Atributos de Software de Calidad
 
 <Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.>
 
-### 5.5 Business Rules
+### 5.5 Reglas del Negocio
 List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
