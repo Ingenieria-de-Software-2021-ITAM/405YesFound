@@ -225,7 +225,19 @@ Este producto deberá apegarse a los principios de seguridad de software:
 
 ### 5.4 Atributos de Software de Calidad
 
-<Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.>
+Algunos atributos a considerar para este producto son:
+
+- **Adaptabilidad:** Este producto debería de ser accesible desde la mayoría de los navegadores web.
+
+- **Disponibilidad:** Como se ha estipulado previamente, este producto debería estar disponible a sus usarios el mayor tiempo posible.
+
+- **Exactitud:** Este producto debería poder proporcionar las cifras de los resultados de votaciónes de manera completamente exacta.
+
+- **Mantenibilidad:** Este producto debería ser fácil de mantener por sus administradores. Para cumplir este atributo se requerriría un manual de mantenimiento para el sistema y quizás un suite de herramientas para poder observar y reparar/modificar el sistema. Un base código bien documentado y comentado también contribuiría a este atributo.
+
+- **Reusabilidad:** Este producto se debería de poder utilizar para cualquier contienda de votación en el futuro de la institución. Se aseguraría este atributo con las features que puede accesar el usuario administrador, que permitiría que cree contiendas nuevas y cree proyectos nuevos dentro de dichas contiendas.
+
+- **Usabilidad:** Este producto debería de ser intuitivo y fácil de usar para tanto los usuarios estudiante como los usuarios administrador. Esto se podría asegurar con un diseño de UI amistoso y centrado en la experiencia del usuario.
 
 ### 5.5 Reglas del Negocio
 List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
