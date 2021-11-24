@@ -134,17 +134,13 @@ Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrado
 
 ### 4.1.3 Requerimientos Funcionales
 
-<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+**REQ-1-1:** El sistema tiene acceso a la BD de usuarios de la aplicación. Dicha BD esta compuesta por, al menos: nombres de usuario (claves únicas), contraseñas, tipos de usuario (administrador o estudiante), y en el caso de ser estudiante si siguen dados de alta dentro del ITAM.
 
-Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+**REQ-1-2:** El sistema no permite acceso al usuario si la combinación de nombre de usuario y contraseña no está dentro de la BD.
 
-REQ-1-1: El sistema tiene acceso a la BD de usuarios de la aplicación. Dicha BD esta compuesta por, al menos: nombres de usuario (claves únicas), contraseñas, tipos de usuario (administrador o estudiante), y en el caso de ser estudiante si siguen dados de alta dentro del ITAM.
+**REQ-1-3:** El sistema bloquea la habilidad de ingresar nombres de usuarios/contraseñas nuevas después de 5 intentos fallidos por un determinado tiempo. Este requerimiento añade seguridad al sistema y evita que alguien pueda accesar la cuenta de otro usuario a través de "brute-forcing."
 
-REQ-1-2: El sistema no permite acceso al usuario si la combinación de nombre de usuario y contraseña no está dentro de la BD.
-
-REQ-1-3: El sistema bloquea la habilidad de ingresar nombres de usuarios/contraseñas nuevas después de 5 intentos fallidos por un determinado tiempo. Este requerimiento añade seguridad al sistema y evita que alguien pueda accesar la cuenta de otro usuario a través de "brute-forcing."
-
-REQ-1-4: El sistema no permite acceso al usuario si la BD indica que el usuario es un estudiante que esta dado de baja en el ITAM. Despliega un mensaje correspondiente.
+**REQ-1-4:** El sistema no permite acceso al usuario si la BD indica que el usuario es un estudiante que esta dado de baja en el ITAM. Despliega un mensaje correspondiente.
 
 ### 4.2 Feature 2: Votar para el proyecto deseado
 
