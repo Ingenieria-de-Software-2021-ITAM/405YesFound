@@ -83,7 +83,7 @@ La aplicación solamente tendría que ser una "web-app" ya que no se utilizaría
 ## 3. Requerimiento de Interfaz Externo<a name="external-interface-requirement"></a>
 ### 3.1 Interfaces de Usuario
 
-![login](./srs_images/login.jpeg)
+![login](./srs_images/login.jpg)
 
 
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
