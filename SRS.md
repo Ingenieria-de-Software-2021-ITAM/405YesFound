@@ -215,13 +215,13 @@ Este producto deberá apegarse a los principios de seguridad de software:
 
 - **Integridad:** Este principios se enfoca en mantener la veracidad y confiabilidad de los datos. En este caso esto se implementaría con el tipo de usuario administrador, que sería el único con la capacidad de accesar funciones que modifican las BD de manera directa. Si este tipo de cuenta solo se le entrega a usuarios de alta confiabilidad, no debería de haber problemas con este principio. Para reforzar este principio se podría implementar un sistema de firmas digitales que se tenga que llevar a cabo cada vez que un administrador haga un cambio a los datos.
 
-- **Disponibilidad:** Este principio se enfoca en mantener disponible el producto y la información que provee a los usuarios. Si los requerimientos de rendimiento son cumplidos y los system features son desarollados de manera apropiada, los usuarios deberían de siempre tener acceso a los datos tiene autorización para ver.
+- **Disponibilidad:** Este principio se enfoca en mantener disponible el producto y la información que provee a los usuarios. Si los requerimientos de rendimiento son cumplidos y los system features son desarollados de manera apropiada, los usuarios deberían de siempre tener acceso a los datos que tienen autorización para ver. Para reforzar este principio se podrían implementar protecciones en contra de ataques DDsS (Distributed Denial of Service).
 
-- **Autenticación:** Valida la identidad de las personas a través de tokens, tarjetas smart, biometría, autenticación de dos pasos, etc.
+- **Autenticación:** Este principio se enfoca en validar la identidad de los usuarios que ingresan al producto. Esto se podría asegurar implementando autenticación de dos factores.
 
-- **Autorización:** Los permisos adecuados son asignados a las personas correctas por medio de roles y reglas.
+- **Autorización:** Este principio se enfoca en que los permisos adecuados sean asignados a las personas correctas. En este caso este principio se cumple por medio de los tipos de usuario que el sistema incluye. Los usuarios estudiante tienen permisos limitados mientras que los usuarios administrador no.
 
-- **Rendición de cuentas:** Construir los mecanismos adecuados para reportar las acciones de los usuarios, normalmente se realiza a través de logs.
+- **Rendición de cuentas:** Finalmente, este principio se enfoca en construir los mecanismos adecuados para reportar las acciones de los usuarios. Este principio se podría cumplir con un log que registre lo que hacen los usuarios (estudiantes y administradores). La importancia del login feature yace en este principio ya que permite atribuir la acciones llevadas a cabo a una cuenta específica.
 
 ### 5.4 Atributos de Software de Calidad
 
