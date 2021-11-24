@@ -22,7 +22,7 @@ El propósito de este documento es la creación de una aplicación para el Insti
 
 ### 1.3 Audiencia Destinataria y Sugerencias de Lectura
 
-Este documento esta destinado a desarolladores, project managers y a usuarios. Es útil tanto para los estudiantes como para los integrantes de la administración del ITAM que desean publicar proyectos dentro de la plataforma. Para aquellos con tiempo, sugerimos que lean el documento de principio a fin. Para aquellos con menos tiempo, la sección mas pertinente es la de [Features del Sistema](#system-features).
+Este documento esta destinado a desarolladores, project managers y a usuarios. La audiencia principal de este documento son los desarolladores que crearan y mantedrán el producto. Sin embargo, también es útil tanto para los estudiantes como para los integrantes de la administración del ITAM que desean publicar proyectos dentro de la plataforma. Para aquellos con tiempo, sugerimos que lean el documento de principio a fin. Para aquellos con menos tiempo, la sección mas pertinente es la de [Features del Sistema](#system-features).
 
 ### 1.4 Definición (Scope) del Producto
 
@@ -64,6 +64,8 @@ El entorno de operación del sistema de votación esta listado debajo:
 - Plataforma: Java/JavaScript
 - Arquitectura: Microservicios y Space-Based.
 
+La aplicación solamente tendría que ser una "web-app" ya que no se utilizaría tan seguído por los usuarios y porque no hay necesidad de que sea híper-accesible.
+
 ### 2.5 Limitaciones de Diseño e Implementación
 
 1. Los commandos de Derby para los queries e aplicaciones del producto.
@@ -76,9 +78,11 @@ El entorno de operación del sistema de votación esta listado debajo:
 
 1. La creación de este sistema opera bajo la suposición de que el ITAM tiene una BD con las claves únicas y los NIPs de cada alumno del ITAM. Sin esta BD el producto se vería afectado y se tendría que generar una BD de usuarios para constituir los logins.
 2. Adicionalmente, se trabaja bajo la suposición de que dicha BD contiene información para verificar que el alumno sigue inscrito en el ITAM.
+3. Finalmente se asume que el backend del producto se mantedrá de manera adecuada.
 
 ## 3. Requerimiento de Interfaz Externo<a name="external-interface-requirement"></a>
 ### 3.1 Interfaces de Usuario
+
 
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
 
@@ -87,6 +91,8 @@ El entorno de operación del sistema de votación esta listado debajo:
 <Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
 
 ### 3.3 Interfaces de Software
+
+El producto se accesará a través de un navegador web ya que será una "web app."
 
 <Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
 
