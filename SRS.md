@@ -201,15 +201,27 @@ Esta funcionalidad se refiere a que un usuario pueda observar los resultados de 
 
 ### 5.1 Requerimientos de Rendimiento
 
-Estos requerimientos se aseguran que la aplicación funcione como debe funcionar sin que se reduzca su desempeño. Es importante que consideremos que habrá periodos dondé el sistema tiene a muchos usuarios en línea, como cuando se acerque la fecha límite para ingresar votos, y que también habrá periodos dondé el sistema tendrá a una cantidad de usuarios activos cercana a cero. Para los periodos de mucha actividad de usuarios sería inteligente implementar un "load balancer" para distribuir los request que se mandan al servidor y evitar que se junten todos. Igualmente sería importante consider que el techo para el número de usuarios en línea sería el número de estudiantes en el ITAM.
+Estos requerimientos se aseguran que la aplicación funcione como debe funcionar sin que se reduzca su desempeño. Es importante que consideremos que habrá periodos dondé el sistema tiene a muchos usuarios en línea, como cuando se acerque la fecha límite para ingresar votos, y que también habrá periodos dondé el sistema tendrá a una cantidad de usuarios activos cercana a cero. Para los periodos de mucha actividad de usuarios sería inteligente implementar un "load balancer" para distribuir los request que se mandan al servidor y evitar que se junten todos. EL "load balancer" también trabajaría con "autoscaling" para prender servidores adicionales cuando se necesiten. Igualmente sería importante consider que el techo para el número de usuarios en línea sería el número de estudiantes en el ITAM.
 
 ### 5.2 Requerimientos de Protección
 
-<Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.>
+El peor daño que podría causar este producto sería la privación del derecho a votar de un estudiante. Esto ocurriría en el caso de que surja algún error con la aplicación que cause que el voto de un estudiante no se registre o que un estudiante no pueda ingresar al sistema a votar. Sin embargo, los requerimientos establecidos en otras partes de este documento (por ejemplo los requerimientos de rendimiento) se asegurarían que esto no ocurra o casi nunca ocurra.
 
 ### 5.3 Requerimientos de Seguridad
 
-Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.
+Este producto deberá apegarse a los principios de seguridad de software:
+
+- **Confidencialidad:** Este principio se enfoca en proteger los datos sensibles de los usuarios. En este caso es importante conservar la privacidad de el voto. Este requerimiento se podría implementar en la manera en la que se registran los votos a la BD. Solamente se debe registrar el estatus del usuario como ya haber votado o no y sumar el voto al proyecto elegido. No se debe de relacionar el usuario al proyecto al que voto a favor.
+
+- **Integridad:** Este principios se enfoca en mantener la veracidad y confiabilidad de los datos. En este caso esto se implementaría con el tipo de usuario administrador, que sería el único con la capacidad de accesar funciones que modifican las BD de manera directa. Si este tipo de cuenta solo se le entrega a usuarios de alta confiabilidad, no debería de haber problemas con este principio. Para reforzar este principio se podría implementar un sistema de firmas digitales que se tenga que llevar a cabo cada vez que un administrador haga un cambio a los datos.
+
+- **Disponibilidad:** Este principio se enfoca en mantener disponible el producto y la información que provee a los usuarios. Si los requerimientos de rendimiento son cumplidos y los system features son desarollados de manera apropiada, los usuarios deberían de siempre tener acceso a los datos tiene autorización para ver.
+
+- **Autenticación:** Valida la identidad de las personas a través de tokens, tarjetas smart, biometría, autenticación de dos pasos, etc.
+
+- **Autorización:** Los permisos adecuados son asignados a las personas correctas por medio de roles y reglas.
+
+- **Rendición de cuentas:** Construir los mecanismos adecuados para reportar las acciones de los usuarios, normalmente se realiza a través de logs.
 
 ### 5.4 Atributos de Software de Calidad
 
