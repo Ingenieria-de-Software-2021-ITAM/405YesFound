@@ -83,7 +83,23 @@ La aplicación solamente tendría que ser una "web-app" ya que no se utilizaría
 ## 3. Requerimiento de Interfaz Externo<a name="external-interface-requirement"></a>
 ### 3.1 Interfaces de Usuario
 
+El producto tendrá cuatro interfaces principales para los usuarios:
+
+- Página de Login:
+
 ![login](./srs_images/login.jpg)
+
+- Página de Votación de Proyectos:
+
+![proyectos](./srs_images/proyectos.jpg)
+
+- Página de Registro de Proyectos Nuevos (sólo para usuarios tipo administrador):
+
+![registro](./srs_images/registro.jpg)
+
+- Página de Vista de Resultados:
+
+![resultados](./srs_images/resultados.jpg)
 
 
 <Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
