@@ -9,7 +9,7 @@ Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y l
 ## Entregables:
 - URL con el proyecto funcionando en un documento 
 - ReadMe del proyecto que contenga:
-  - Software Requirements con al menos 3 Casos de Uso por Requerimiento
+  - [Software Requirements con al menos 3 Casos de Uso por Requerimiento] (SRS.md)
   - Plan de Calidad○Arquitectura y justificación
   - Metodología y justificación
   - Código del proyecto
