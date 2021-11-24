@@ -129,6 +129,10 @@ Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrado
 |---|---|
 | El usuario ingresa su nombre de usuario (clave única) y contraseña (NIP) en los renglones correspondientes. Presiona el botón "Entrar." | El producto lleva al usuario a la página de inicio de la aplicación. El producto lo tiene identificado como el usuario correspondiente a la tupla de nombre de usuario y contraseña ingresada.  |
 
+**Caso de Uso:**
+
+![Login](./srs_images/l.jpg)
+
 #### 4.1.3 Requerimientos Funcionales
 
 **REQ-1-1:** El sistema tiene acceso a la BD de usuarios de la aplicación. Dicha BD esta compuesta por, al menos: nombres de usuario (claves únicas), contraseñas, tipos de usuario (administrador o estudiante), y en el caso de ser estudiante si siguen dados de alta dentro del ITAM.
@@ -151,6 +155,10 @@ Esta funcionalidad se refiere a que un usuario, del tipo estudiante, pueda votar
 |---|---|
 | El usuario ingresa su clave única a una caja de texto, elige el proyecto deseado de un "drop-down list" y presiona el botón de "Votar". | El producto registra el voto del usuario dentro de la BD y despliega un mensaje de confirmación.  |
 
+**Caso de Uso:**
+
+![Votar por proyecto deseado](./srs_images/vpd.jpg)
+
 #### 4.2.3 Requerimientos Funcionales
 
 **REQ-2-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
@@ -171,6 +179,10 @@ Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda a�
 |---|---|
 | Dentro de las cajas de texto correspondientes, el usuario ingresa el nombre del proyecto, la contienda, la descripción breve, y la descripción completa del proyecto. El usuario presiona el botón "Registrar proyecto". | El producto añade el proyecto nuevo y sus características a la base de datos de proyectos y lo despliega en la contienda especificada. Ahora los usuarios tipo estudiante podrán votar por dicho proyecto.  |
 
+**Caso de Uso:**
+
+![Crear proyectos nuevos](./srs_images/cpn.jpg)
+
 #### 4.3.3 Requerimientos Funcionales
 
 **REQ-3-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
@@ -181,7 +193,7 @@ Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda a�
 
 **REQ-3-4** Para permanecer apegado al requerimiento de **autorización**, el sistema verifica, con la BD mencionada en REQ-3-1, que el usuario es del tipo administrador, antes de llevar a cabo cambios.
 
-### 4.4 Feature 4: Observación de Resultados
+### 4.4 Feature 4: Observación de resultados
 
 #### 4.4.1 Descripción y Prioridad
 
@@ -192,6 +204,10 @@ Esta funcionalidad se refiere a que un usuario pueda observar los resultados de 
 | Estímulo  | Respuesta  |
 |---|---|
 | El usuario presiona "Resultados" en el menú superior de la aplicación.| El producto lleva al usuario a la página de "Resultados" donde se despliega una gráfica circular con los resultados de la contienda.  |
+
+**Caso de Uso:**
+
+![Observación de resultados](./srs_images/or.jpg)
 
 #### 4.4.3 Requerimientos Funcionales
 
