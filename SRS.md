@@ -101,12 +101,11 @@ El producto tendrá cuatro interfaces principales para los usuarios:
 
 ![resultados](./srs_images/resultados.jpg)
 
-
-<Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.>
+También se desea que haya un menú en la parte superior de cada una de las página para que el usuario pueda navegar a través de todas las funcionalidades de el producto.
 
 ### 3.2 Interfaces de Hardware
 
-<Describe the logical and physical characteristics of each interface between the software product and the hardware components of the system. This may include the supported device types, the nature of the data and control interactions between the software and the hardware, and communication protocols to be used.>
+El producto solo será accesible a través de un navegador web que este instalado dentro de una computadora tradicional u otro dispositivo electrónico como un smartphone o tablet. No hay planes para crear una versión móvil del producto como se hace a veces para algunas páginas web.
 
 ### 3.3 Interfaces de Software
 
@@ -120,19 +119,40 @@ El producto se accesará a través de un navegador web ya que será una "web app
 
 ## 4. Features del Sistema<a name="system-features"></a>
 
-### 4.1 System Feature 1
+### 4.1 Feature 1: Login
 
-<Don’t really say “System Feature 1.” State the feature name in just a few words.>
+### 4.1.1 Descripción y Prioridad
 
-### 4.1.1 Description and Priority
+Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrador) pueda ingresar a su cuenta dentro del producto. Esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que un usuario pueda llevar a cabo acciónes dentro del producto. Es increíblemente importante que exista **rendición de cuentas** dentro de este producto. Un buen sistema de **rendición de cuentas** permitirá que cada voto sea contado y relacionado a un usuario específico, así evitando fraudes en votaciones.
+
+### 4.1.2 Secuencias de Estímulo/Respuesta
+
+| Estímulo  | Respuesta  |
+|---|---|
+| El usuario ingresa su nombre de usuario (clave única) y contraseña (NIP) en los renglones correspondientes. Presiona el botón "entrar." | El producto lleva a la página de inicio de la aplicación. El producto lo tiene identificado como el usuario correspondiente al nombre de usuario y contraseña ingresadas.  |
+
+
+### 4.1.3 Requerimientos Funcionales
+
+<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+
+Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+
+REQ-1: Acceso a la BD de usuar
+
+REQ-2: 
+
+### 4.2 Feature 2: Votar para el proyecto deseado
+
+### 4.2.1 Descripción y Prioridad
 
 <Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
 
-### 4.1.2 Stimulus/Response Sequences
+### 4.2.2 Secuencias de Estímulo/Respuesta
 
 List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
 
-### 4.1.3 Functional Requirements
+### 4.2.3 Requerimientos Funcionales
 
 <Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
 
@@ -142,7 +162,25 @@ REQ-1:
 
 REQ-2:
 
-### 4.2 System Feature 2 (and so on)
+### 4.3 Feature 3: Crear proyectos nuevos
+
+### 4.3.1 Descripción y Prioridad
+
+<Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority. You could also include specific priority component ratings, such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1 to a high of 9).>
+
+### 4.3.2 Secuencias de Estímulo/Respuesta
+
+List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.
+
+### 4.3.3 Requerimientos Funcionales
+
+<Itemize the detailed functional requirements associated with this feature. These are the software capabilities that must be present in order for the user to carry out the services provided by the feature, or to execute the use case. Include how the product should respond to anticipated error conditions or invalid inputs. Requirements should be concise, complete, unambiguous, verifiable, and necessary. Use “TBD” as a placeholder to indicate when necessary information is not yet available.>
+
+Each requirement should be uniquely identified with a sequence number or a meaningful tag of some kind.
+
+REQ-1:
+
+REQ-2:
 
 ## 5. Otros Requerimientos No-Fucnionales<a name="other-nonfunctional-requirements"></a>
 
