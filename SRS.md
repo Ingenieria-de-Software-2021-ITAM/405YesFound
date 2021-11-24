@@ -6,7 +6,6 @@
 3. [Requerimiento de Interfaz Externo](#external-interface-requirement)
 4. [Features del Sistema](#system-features)
 5. [Otros Requerimientos No-Funcionales](#other-nonfunctional-requirements)
-6. [Otros Requerimientos](#other-requirements)
 
 ## 1. Introducción <a name="introduction"></a>
 ### 1.1 Propósito
@@ -183,7 +182,7 @@ Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda a�
 
 **REQ-3-4** Para permanecer apegado al requerimiento de **autorización**, el sistema verifica, con la BD mencionada en REQ-3-1, que el usuario es del tipo administrador, antes de llevar a cabo cambios.
 
-## 5. Otros Requerimientos No-Fucnionales<a name="other-nonfunctional-requirements"></a>
+## 5. Otros Requerimientos No-Funcionales<a name="other-nonfunctional-requirements"></a>
 
 ### 5.1 Performance Requirements
 
@@ -203,7 +202,3 @@ Specify any requirements regarding security or privacy issues surrounding use of
 
 ### 5.5 Business Rules
 List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
-
-## 6. Otros Requerimientos <a name="other-requirements"></a>
-
-Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
