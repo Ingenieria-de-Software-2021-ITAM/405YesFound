@@ -121,17 +121,17 @@ El producto se accesará a través de un navegador web ya que será una "web app
 
 ### 4.1 Feature 1: Login
 
-### 4.1.1 Descripción y Prioridad
+#### 4.1.1 Descripción y Prioridad
 
 Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrador) pueda ingresar a su cuenta dentro del producto. Esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que un usuario pueda llevar a cabo acciónes dentro del producto. Es increíblemente importante que exista **rendición de cuentas** dentro de este producto. Un buen sistema de **rendición de cuentas** permitirá que cada voto sea contado y relacionado a un usuario específico, así evitando fraudes en votaciones.
 
-### 4.1.2 Secuencias de Estímulo/Respuesta
+#### 4.1.2 Secuencias de Estímulo/Respuesta
 
 | Estímulo  | Respuesta  |
 |---|---|
 | El usuario ingresa su nombre de usuario (clave única) y contraseña (NIP) en los renglones correspondientes. Presiona el botón "Entrar." | El producto lleva al usuario a la página de inicio de la aplicación. El producto lo tiene identificado como el usuario correspondiente a la tupla de nombre de usuario y contraseña ingresada.  |
 
-### 4.1.3 Requerimientos Funcionales
+#### 4.1.3 Requerimientos Funcionales
 
 **REQ-1-1:** El sistema tiene acceso a la BD de usuarios de la aplicación. Dicha BD esta compuesta por, al menos: nombres de usuario (claves únicas), contraseñas, tipos de usuario (administrador o estudiante), y en el caso de ser estudiante si siguen dados de alta dentro del ITAM.
 
@@ -143,17 +143,17 @@ Esta funcionalidad se refiere a que un usuario (ya sea estudiante o administrado
 
 ### 4.2 Feature 2: Votar para el proyecto deseado
 
-### 4.2.1 Descripción y Prioridad
+#### 4.2.1 Descripción y Prioridad
 
 Esta funcionalidad se refiere a que un usuario, del tipo estudiante, pueda votar a favor de el proyecto que deseé. Evidentemente, esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que el producto haga lo que debe de hacer.
 
-### 4.2.2 Secuencias de Estímulo/Respuesta
+#### 4.2.2 Secuencias de Estímulo/Respuesta
 
 | Estímulo  | Respuesta  |
 |---|---|
 | El usuario ingresa su clave única a una caja de texto, elige el proyecto deseado de un "drop-down list" y presiona el botón de "Votar". | El producto registra el voto del usuario dentro de la BD y despliega un mensaje de confirmación.  |
 
-### 4.2.3 Requerimientos Funcionales
+#### 4.2.3 Requerimientos Funcionales
 
 **REQ-2-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
@@ -163,17 +163,17 @@ Esta funcionalidad se refiere a que un usuario, del tipo estudiante, pueda votar
 
 ### 4.3 Feature 3: Crear proyectos nuevos
 
-### 4.3.1 Descripción y Prioridad
+#### 4.3.1 Descripción y Prioridad
 
 Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda añadir un proyecto nuevo a una contienda existente. El administrador debe poder asignar un nombre, descripción breve, descripción completa e imágen a las caracterísitcas de dicho proyecto nuevo, para que los usuarios estudiantes entiendan por qué proyecto están votando. Evidentemente, esta funcionalidad tiene prioridad alta o de tipo 1 ya que es indispensable para que el producto haga lo que debe de hacer. Sin esta funcionalidad los usuarios tipo estudiante no podrían votar por algún proyecto.
 
-### 4.3.2 Secuencias de Estímulo/Respuesta
+#### 4.3.2 Secuencias de Estímulo/Respuesta
 
 | Estímulo  | Respuesta  |
 |---|---|
 | Dentro de las cajas de texto correspondientes, el usuario ingresa el nombre del proyecto, la contienda, la descripción breve, y la descripción completa del proyecto. El usuario presiona el botón "Registrar proyecto". | El producto añade el proyecto nuevo y sus características a la base de datos de proyectos y lo despliega en la contienda especificada. Ahora los usuarios tipo estudiante podrán votar por dicho proyecto.  |
 
-### 4.3.3 Requerimientos Funcionales
+#### 4.3.3 Requerimientos Funcionales
 
 **REQ-3-1:** El sistema tiene acceso a la BD de usuarios de la aplicación, previamente mencionada en REQ-1-1.
 
@@ -186,7 +186,9 @@ Esta funcionalidad se refiere a que un usuario, del tipo administrador, pueda a�
 ## 5. Otros Requerimientos No-Fucnionales<a name="other-nonfunctional-requirements"></a>
 
 ### 5.1 Performance Requirements
+
 If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.
+
 ### 5.2 Safety Requirements
 
 <Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.>
