@@ -240,4 +240,5 @@ Algunos atributos a considerar para este producto son:
 - **Usabilidad:** Este producto debería de ser intuitivo y fácil de usar para tanto los usuarios estudiante como los usuarios administrador. Esto se podría asegurar con un diseño de UI amistoso y centrado en la experiencia del usuario.
 
 ### 5.5 Reglas del Negocio
-List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
+
+Este producto debe operar bajo el principio de la privacidad del voto. Este objetivo se podría lograr con los requerimientos estipulados previamente. Adicionalmente, como ya se ha mencionado antes, el usuario tipo estudiante solamente podrá votar y observar los resultados dentro del sistema, mientras que el usuario tipo administrador tendrá la funcionalidad adicional de agregar proyectos nuevos a las contiendas. Finalmente, también se debería desarollar un protocolo para el acceso/modificación directa de las BD del sistema por los usuarios administrador.
