@@ -4,7 +4,7 @@
 Realizar todo el ciclo de Ingeniería de Software con un proyecto web.
 
 ## Descripción:
-Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y lasalumnas pueden votar por los mejores proyectos.
+Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y las alumnas pueden votar por los mejores proyectos.
 
 ## Entregables:
 - URL con el proyecto funcionando en un documento 
