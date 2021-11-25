@@ -49,7 +49,7 @@ Funciones de Administrador:
 
 ### 2.3 Clases de Usuario y Características
 
-Como fue mencionado previamente, habrá dos tipos de usuarios: estudiante y administrador. Es más importante satisfacer las necesidades del usuario tipo estudiante ya que habrá mucho más usuarios en esta categoría. El usuario administrador debería tener acceso a todas las funciones del producto.
+Como fue mencionado previamente, habrá dos tipos de usuarios: los estudiantes y administradores. Es más importante satisfacer las necesidades del usuario tipo estudiante ya que habrá mucho más usuarios en esta categoría. El usuario administrador debería tener acceso a todas las funciones del producto.
 
 ### 2.4 Entorno de Operación
 
