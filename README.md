@@ -25,5 +25,5 @@ Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y l
 ## Integrantes del equipo:
 * Yosshua Cisneros
 * Toño Toledo
-* Rodrigo Plauchu
+* Rodrigo Plauchú
 * Mariano Franco
