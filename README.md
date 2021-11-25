@@ -27,3 +27,6 @@ Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y l
 * Toño Toledo
 * Rodrigo Plauchú
 * Mariano Franco
+
+## Presentación Final
+[Liga](https://docs.google.com/presentation/d/1mjgdTbOKHpa2LORGZjDBgDEZljwCRDfVYexx7r5KZIM/edit?usp=sharing)
