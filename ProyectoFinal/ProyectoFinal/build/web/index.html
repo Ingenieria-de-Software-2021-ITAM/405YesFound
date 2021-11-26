@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Proyectos ITAM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS/topnav.css">
+        <link rel="stylesheet" href="CSS/info.css">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Inicio</a>
+            <a href="votar.jsp"><i class="fa fa-fw fa-thumbs-o-up"></i>Votación</a>
+            <a href="resultados.jsp"><i class="fa fa-fw fa-pie-chart"></i>Resultados</a>
+            <a href="login.jsp"><i class="fa fa-fw fa-plus-square-o"></i>Registro de proyectos</a>
+            <a href="about.html"><i class="fa fa-fw fa-info"></i>Acerca de</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>     
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <div class="blog_post">                
+            <h1>¿En qué consiste?</h1>
+            <p>Esta es una aplicación para proponer proyectos al ITAM y que los alumnos voten. </p>
+        </div>
+        <div class="blog_post">                
+            <h1>Proponer proyectos</h1>
+            <p>Cualquier alumno o profesor puede proponer un proyecto: solo deben iniciar sesión con su usuario y contraseña que utilizan en grace itam o en comunidad y en la pestaña de registro de proyectos podrán nombrar su proyecto; elegir en que contienda participará con un dropdownlist con las opciones disponibles, esta podría llegar a dividirse por semestres y para seleccionar el semestre actual se elegiría Otoño 2021, por último se tendría que dar una descripción completa del proyecto y otra breve que se el mostrará a los participantes de la votación a la hora de elegir.</p>
+        </div>
+        <div class="blog_post">                
+            <h1>Votación</h1>
+            <p>Para poder acceder a la votación es necesario introducir la clave única en el espacio indicado y estar registrado en la base de datos de el sistema. 
+                Se muestran las opciones por las que se puede votar con el título y la descripción breve proporcionadas con una imagen de fondo. Al colocar el cursor sobre una de estas opciones se genera un efecto que simula que el rectángulo que engloba a la opción se gira y muestra una descripción más amplia del proyecto.
+                En este caso, en este prototipo, solo se puede elegir una de las opciones y todas se consideran del mismo periodo. Pero en caso de que haya más contiendas o se pueda votar por más de una opción se podrá elegir la contienda o el periodo del que se quieran ver las opciones y se podrá votar por la cantidad que se permita.</p>
+        </div>        
+        <div class="blog_post">                
+            <h1>Resultados</h1>
+            <p>En le área de resultados se muestra una gráfica de pie con el porcentaje de votos de cada propuesta y al poner el cursor encima se puede visualizar la cantidad de votos que obtuvo cada una. En caso de tener diversas contiendas se podrá elegir la contienda de la que se quieren ver los resultados.</p>
+        </div>
+
+    </body>
+</html>

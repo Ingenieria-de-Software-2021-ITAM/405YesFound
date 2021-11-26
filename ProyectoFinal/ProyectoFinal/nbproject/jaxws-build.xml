@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:webproject2="http://www.netbeans.org/ns/web-project/2" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSGEN SECTION
+                ===================
+            -->
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <fail if="${wsimport.bad.version}" message="WsImport ant task defined in the classpath ${j2ee.platform.wsimport.classpath} has a serious bug. See http://wiki.netbeans.org/MetroIssue for details."/>
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <property name="j2ee.platform.wsimport.classpath" value="${libs.jaxws21.classpath}"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${java.home}/../lib/tools.jar:${j2ee.platform.wsimport.classpath}:${javac.classpath}"/>
+        </taskdef>
+        <condition property="conf-dir" value="${conf.dir}/" else="">
+            <isset property="conf.dir"/>
+        </condition>
+    </target>
+    <target name="wsimport-client-WS_Login" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS_Login"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS_Login" destdir="${build.generated.dir}/jax-wsCache/WS_Login" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Login/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Login.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ProyectoFinal_WS_All/WS_Login?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Login/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Login.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS_Login"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS_Login">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS_Login" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/ws_login"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/WS_Login"/>
+    </target>
+    <target name="wsimport-client-WS_Info" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS_Info"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS_Info" destdir="${build.generated.dir}/jax-wsCache/WS_Info" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Info/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Info.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ProyectoFinal_WS_All/WS_Info?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Info/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Info.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS_Info"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS_Info">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS_Info" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/ws_info"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/WS_Info"/>
+    </target>
+    <target name="wsimport-client-WS_Votar" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS_Votar"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS_Votar" destdir="${build.generated.dir}/jax-wsCache/WS_Votar" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Votar/wsdl/localhost_8080/ProyectoFinal_WS_Votar/WS_Votar.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ProyectoFinal_WS_Votar/WS_Votar?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Votar/wsdl/localhost_8080/ProyectoFinal_WS_Votar/WS_Votar.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS_Votar"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS_Votar">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS_Votar" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/ws_votar"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/WS_Votar"/>
+    </target>
+    <target name="wsimport-client-WS_Alta" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/WS_Alta"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/WS_Alta" destdir="${build.generated.dir}/jax-wsCache/WS_Alta" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Alta/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Alta.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://localhost:8080/ProyectoFinal_WS_All/WS_Alta?WSDL" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/WS_Alta/wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Alta.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/WS_Alta"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/WS_Alta">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-WS_Alta" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/ws_alta"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/WS_Alta"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-WS_Login, wsimport-client-WS_Info, wsimport-client-WS_Votar, wsimport-client-WS_Alta"/>
+</project>

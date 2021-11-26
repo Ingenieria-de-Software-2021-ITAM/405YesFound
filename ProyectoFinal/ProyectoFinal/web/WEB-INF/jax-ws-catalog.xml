@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Login?WSDL" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Login.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Login?xsd=1" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Login.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Info?WSDL" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Info.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Info?xsd=1" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Info.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_Votar/WS_Votar?WSDL" uri="wsdl/localhost_8080/ProyectoFinal_WS_Votar/WS_Votar.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_Votar/WS_Votar?xsd=1" uri="wsdl/localhost_8080/ProyectoFinal_WS_Votar/WS_Votar.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Alta?WSDL" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Alta.wsdl"/>
+    <system systemId="http://localhost:8080/ProyectoFinal_WS_All/WS_Alta?xsd=1" uri="wsdl/localhost_8080/ProyectoFinal_WS_All/WS_Alta.xsd_1.xsd"/>
+</catalog>
