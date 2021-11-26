@@ -25,7 +25,7 @@ El test plan identifier de este documento es Quality_Plan_M-1.0
 Fecha: 25/11/21
 Autores: Equipo 405YesFound
 
-# 2. References<a name="testplan"></a>
+# 2. References<a name="references"></a>
 Sistemas deL ITAM como la página grace.itam.mx y comunidad.itam.mx en la que se llegan a hacer votaciones y encuestas.
 
 # 3. Introduction<a name="intro"></a>
