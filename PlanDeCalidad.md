@@ -73,8 +73,8 @@ No Aplica, ya que el despliegue de la aplicación no será incremental, la funci
 - Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que si funciona y lo soporta. Se necesitará a alguien encargado de estas pruebas y en este caso será eel Software Developer.
 
 # 15 Responsabilities 
-Who is in charge? This issue includes all areas of the plan.  Here are some examples: § Setting risks. § Selecting features to be tested and not tested. § Setting overall strategy for this level of plan. § Ensuring all required elements are in place for testing. § Providing for resolution of scheduling conflicts, especially, if testing is done on the production system. § Who provides the required training? § Who makes the critical go/no go decisions for items not covered in the test plans?
-IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme Evolutif Limited Page 7 
+- Software developer: está a cargo de realizar las pruebas y mostrar las pruebas de funcionamiento.
+- Product Manager: verifica y aprueba.
 
 # 16 Schedule
 Durante el proceso de creción se realizarán pruebas aporximadamentee cada semana al terminar un sprint equivalente a una funcionalidad.
