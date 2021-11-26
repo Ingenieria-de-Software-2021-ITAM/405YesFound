@@ -56,7 +56,7 @@ Realizar un testeo gray box para estresar el sistema y ver qué tanto flujo de u
 Mientras el sistema siga dando servicio será pass, cuando falle un fail.
 
 # 10 Suspension Criteria and Resumption Requirements
-- Si el sistema se cierra al realizar las pruebas de estresamiento se realizarán otras dos pruebas, se se llega a la misma conclusión que indica que no las soportó, se tendrán que conseguir mejores equipos o se deberá modificar y hacer más resistente el sistema a estas pruebas. Esa decisión recaerá en el Product Manager y Product Owner.
+Si el sistema se cierra al realizar las pruebas de estresamiento se realizarán otras dos pruebas, se se llega a la misma conclusión que indica que no las soportó, se tendrán que conseguir mejores equipos o se deberá modificar y hacer más resistente el sistema a estas pruebas. Esa decisión recaerá en el Product Manager y Product Owner.
 
 # 11 Test Deliverables 
 - Las pruebas de estresamiento se comprobarán con un video de la prueba con múltiples computadoras ayudando a simular los microservicios.
@@ -66,17 +66,17 @@ Mientras el sistema siga dando servicio será pass, cuando falle un fail.
 No Aplica, ya que el despliegue de la aplicación no será incremental, la funcionalidad está interconectada y se desplegará toda en manera conjunta.
 
 # 13. Environmental Needs
-- Cada dispositivo que soporte el sistem  deebe tener 4gb de RAM un disco de estado sólido de 50gb. Esto se prueba con pruebas de estres conectando distintas computadoras. Las computadoras del ITAM lo soportan.
+Cada dispositivo que soporte el sistem  deebe tener 4gb de RAM un disco de estado sólido de 50gb. Esto se prueba con pruebas de estres conectando distintas computadoras. Las computadoras del ITAM lo soportan.
 
 # 14. Staffing and training needs
-- Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que si funciona y lo soporta. Se necesitará a alguien encargado de estas pruebas y en este caso será eel Software Developer.
+Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que si funciona y lo soporta. Se necesitará a alguien encargado de estas pruebas y en este caso será eel Software Developer.
 
 # 15 Responsabilities 
 - Software developer: está a cargo de realizar las pruebas y mostrar las pruebas de funcionamiento.
 - Product Manager: verifica y aprueba.
 
 # 16 Schedule
-Durante el proceso de creción se realizarán pruebas aporximadamentee cada semana al terminar un sprint equivalente a una funcionalidad.
+Durante el proceso de creación se realizarán pruebas aporximadamente cada semana al terminar un sprint equivalente a una funcionalidad.
 Si el sistema ya desplegado no se ve modificado se realizarán pruebas cada 3 meses, pero en caso de ser modificado se reelizarán las pruebas con las nuevas modificaciones sin importar la frecuencia de estas.
 
 # 17 Planning Risks And Contingenciees
