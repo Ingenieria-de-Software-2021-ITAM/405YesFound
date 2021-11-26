@@ -1,4 +1,4 @@
-connect 'jdbc:derby://localhost:1527/proyectos;user=proyectos;password=proyectos;';
+connect 'jdbc:derby://localhost:1527/proyectos;create=true;user=proyectos;password=proyectos;';
 
 drop table TBLVOTO;
 drop table TBLPROYECTOS;
