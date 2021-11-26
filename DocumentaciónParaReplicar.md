@@ -30,5 +30,11 @@ asadmin start-domain --verbose
 ```
 6. Puedes abrir la página web en http://{YOUR_IP_ADDRESS}:8080/ProyectoFinal/index.html
 
+# Procedimiento para apagar el servidor
 
+1. Entrar a la carpeta \glassfish5\bin y ejecutar el archivo asadmin.bat con permisos de administrador.
+2. Cuando se abra la terminal ejecutaremos el siguiente código para terminar el servidor:
+```
+stop-domain domain1
+```
 
