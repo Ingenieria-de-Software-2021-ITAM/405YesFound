@@ -108,12 +108,10 @@ El producto solo será accesible a través de un navegador web que este instalad
 ### 3.3 Interfaces de Software
 
 El producto se accesará a través de un navegador web ya que será una "web app."
-
-<Describe the connections between this product and other specific software components (name and version), including databases, operating systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going out and describe the purpose of each. Describe the services needed and the nature of communications. Refer to documents that describe detailed application programming interface protocols. Identify data that will be shared across software components. If the data sharing mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this as an implementation constraint.>
+Se tendrá una conexión para las bases de datos con una memoria compartida distribuida, con la arquitectura space-based, a la que se conecta el sistema a través de una unidad de procesamiento.
 
 ### 3.4 Interfaces de Comunicación
-
-<Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and synchronization mechanisms.>
+Se usan los principios de PCPIP para las conexiones con los microservicios y entre microservicios. 
 
 ## 4. Features del Sistema<a name="system-features"></a>
 
