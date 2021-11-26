@@ -10,17 +10,10 @@
 
 
 # 1. Test plan identifier <a name="testplan"></a>
-El test plan identifier de este documento es M-1.0
+El test plan identifier de este documento es Quality_Plan_M-1.0
 
-El identificador tendrá la siguiente estructura:
-- T-V.SubV
-
-donde cada elemento representa lo siguiente:
-
-- T es el tipo de plan (Master, Level, Integration)
-- V es la versión
-- Subversion es la subversión cada vez que hay cambios pequeños
-
+Fecha: 25/11/21
+Autores: Equipo 405YesFound
 
 # 2. References<a name="testplan"></a>
 # 3. Introduction<a name="intro"></a>
@@ -32,12 +25,15 @@ El propósito de este plan es verificar las funcionalidades nuevas que se implem
 - Seguridad: Seguridad de la información, de las contraseñas y de los datos personales.
 
 # 6. Features to be tested<a name="featuretest"></a>
-- Pruebas de estrés loggin: Alta
-- Pruebas de flujo de usuarios: Alta
-- Pruebas de bases de datos: Alta
-- Prueba de conectividad entre páginas: Media
-- Prueba de prototipos: Baja 
+- Funcionamiento de la interfaz y las animaciones en cualquier dispositivo.
+- Funcionalidad de votación: que se registren los votos correctamente y solo permita la cantidad correcta de votos.
+- Log in: que los usuarios guardados en la base de datos se puedan dar de alta y que nadie pudea acceder a la información de otros usuarios.
+- Dar de alta propuestas: que las propuestas sí se eden de alta con la información correcta.
+- Resultados: que los resultados desplegados sean acertados y se desplieguen correctamente.
+- Uso del menú: movimiento a través de las distintas pestañas.
+- Base de datos frente a cargas altas de usuarios.
 # 7. Features not to be tested<a name="approach"></a>
-- Pruebas de diseño
+- Funcionamiento de la base de datos.
+- Texto de la pestaña "Acerca de"
 
 
