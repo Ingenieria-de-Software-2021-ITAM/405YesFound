@@ -7,4 +7,4 @@ Se requiere:
 - Java JDK 9.8
 - Windows 10, como sistema operativo para la imagen de Docker
 
-Para instanciar el sistema a través de Docker see puede ver este <tutorial>(https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
+Para instanciar el sistema a través de Docker see puede ver este [tutorial](https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
