@@ -7,7 +7,7 @@ Realizar todo el ciclo de Ingeniería de Software con un proyecto web.
 Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y las alumnas pueden votar por los mejores proyectos.
 
 ## Entregables:
-- URL con el proyecto funcionando en un documento 
+- URL con el [proyecto funcionando en un documento ](ImágenesProyectoFuncionando.md)
 - ReadMe del proyecto que contenga:
   - [Software Requirements con al menos 3 Casos de Uso por Requerimiento](SRS.md)
   - [Plan de Calidad](PlanDeCalidad.md)
