@@ -51,3 +51,11 @@ El propósito de este plan es verificar las funcionalidades que se implementará
 
 # 8. Approach<a name=""></a>
 
+# 13. Environmental Needs
+- Cada dispositivo que soporte el sistem  deebe tener 4gb de RAM un disco de estado sólido de 50gb. Esto se prueba con pruebas de estres conectando distintas computadoras. Las computadoras del ITAM lo soportan.
+
+# 14. Staffing and training needs
+- Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que funcione.
+
+
+
