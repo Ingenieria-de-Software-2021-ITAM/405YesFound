@@ -1,0 +1,26 @@
+
+C:\Users\Yosshua\Desktop\ITAM\SEPTIMO\SIST-COM-ELEC\PARCIAL-2\SimpleRMIAutonomo>set cb="tstRMI.jar" 
+
+C:\Users\Yosshua\Desktop\ITAM\SEPTIMO\SIST-COM-ELEC\PARCIAL-2\SimpleRMIAutonomo>if [] NEQ [] goto conHost 
+
+C:\Users\Yosshua\Desktop\ITAM\SEPTIMO\SIST-COM-ELEC\PARCIAL-2\SimpleRMIAutonomo>java -Djava.rmi.server.codebase=file:///"tstRMI.jar" -jar "tstRMI.jar" Master localhost reporta 
+Distribuidor, inciando con:
+args[0]:Master
+args[1]:localhost
+args[2]:reporta
+------------------------------------------
+Distribuidor redirigiendo a args[0]:Master
+Master, inciando con:
+args[0]:localhost
+args[1]:reporta
+------------------------------------------
+================================================
+    cantidad de clientes:15
+   cantidad de servicios:150
+media de tiempo de ciclo:24.0 miliSeg
+ dev std tiempo de ciclo:2317.711409395973 miliSeg
+  tiempo de ciclo máximo:406 miliSeg
+  tiempo de ciclo mínimo:0 miliSeg
+Distribuidor...
+
+C:\Users\Yosshua\Desktop\ITAM\SEPTIMO\SIST-COM-ELEC\PARCIAL-2\SimpleRMIAutonomo>goto fin 
