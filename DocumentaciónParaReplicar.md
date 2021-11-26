@@ -10,7 +10,7 @@ Se requiere:
 Para instanciar una imagen con Docker see puede ver este [tutorial](https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
 
 # Procedimiento para cargar la BD
-1. Descargar el archivo script.sql que se encuentra en la raíz del proyecto.
+1. Descargar el archivo script.sql que se encuentra [aquí](https://github.com/Ingenieria-de-Software-2021-ITAM/405YesFound/blob/main/ProyectoFinal/script.sql).
 2. Ejecutar el archivo ij.bat que se encuentra en la ruta ..\Java\jdk1.8.0_162\db\bin con permisos de administrador
 3. Ejecutar el siguiente comando
 
