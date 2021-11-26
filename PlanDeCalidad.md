@@ -50,3 +50,4 @@ El propósito de este plan es verificar las funcionalidades que se implementará
 - Texto de la pestaña "Acerca de" e índice
 
 # 8. Approach<a name=""></a>
+
