@@ -84,6 +84,7 @@ What are the overall risks to the project with an emphasis on the testing proces
 IEEE Test Plan Outline Foundation Course in Software Testing Prepared by Systeme Evolutif Limited Page 8 § You could just QUIT.  A rather extreme option to say the least. Management is usually reluctant to accept scenarios such as the one above even though they have seen it happen in the past. The important thing to remember is that, if you do nothing at all, the usual result is that testing is cut back or omitted completely, neither of which should be an acceptable option.
 
 # 18 Approvals
-Who can approve the process as complete and allow the project to proceed to the next level (depending on the level of the plan)? At the master test plan level, this may be all involved parties. When determining the approval process, keep in mind who the audience is.  § The audience for a unit test level plan is different than that of an integration, system or master level plan. § The levels and type of knowledge at the various levels will be different as well. § Programmers are very 
+- Product Manager - internamente
+- Junta directiva ITAM: Stakeholders 
 
 
