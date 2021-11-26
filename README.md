@@ -15,7 +15,7 @@ Crear una aplicación para proponer proponer proyectos al ITAM en dónde los y l
   - [Metodología y justificación](JustificaciónMetodología.md)
   - [Código del proyecto]()
   - [Documentación para replicar](DocumentaciónParaReplicar.md)
-  - [Propuesta económica]()
+  - [Propuesta económica](presupuesto.xlsx)
 - Repositorio con al menos 5 commits de cada persona del equipo y 3 PRs (en general)
 - Presentación en clase de 5 minutos donde se hable del top 3 de funcionalidades, cómose realizaron, qué aprendieron y cómo las mejorarían
 
