@@ -10,3 +10,5 @@ Se requiere:
 Para instanciar el sistema a través de Docker see puede ver este [tutorial](https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
 
 # Copiar a través de Github
+
+git clone repository_link
