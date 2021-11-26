@@ -9,8 +9,13 @@
 ## Pantalla de Log In
 ![login](srs_images/login.jpg)
 
-## Pantalla para proponer proyectos
-![proyectos](srs_images/proyectos.jpg)
+## Pantalla para registrar y proponer proyectos
+![registro](srs_images/reegistro.jpg)
 
 ## Pantalla para votación
 ![votos](srs_images/Votacion.png)
+
+## Pantalla con la gráfica con resultados
+![resultados](srs_images/resultados.jpg)
+
+
