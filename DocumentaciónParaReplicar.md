@@ -7,7 +7,7 @@ Se requiere:
 - Java JDK 1.8
 - Windows 10 para el servidor 
 
-Para instanciar el sistema a través de Docker see puede ver este [tutorial](https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
+Para instanciar una imagen con Docker see puede ver este [tutorial](https://github.com/docker/labs/blob/master/windows/windows-containers/README.md)
 
 # Procedimiento para cargar la BD
 1. Descargar el archivo script.sql que se encuentra en la raíz del proyecto.
