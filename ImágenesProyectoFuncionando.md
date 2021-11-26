@@ -10,7 +10,7 @@
 ![login](srs_images/login.jpg)
 
 ## Pantalla para registrar y proponer proyectos
-![registro](srs_images/reegistro.jpg)
+![registro](srs_images/registro.jpg)
 
 ## Pantalla para votación
 ![votos](srs_images/Votacion.png)
