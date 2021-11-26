@@ -69,7 +69,7 @@ If this is a multi-phase process or if the application is to be released in incr
 - Cada dispositivo que soporte el sistem  deebe tener 4gb de RAM un disco de estado sólido de 50gb. Esto se prueba con pruebas de estres conectando distintas computadoras. Las computadoras del ITAM lo soportan.
 
 # 14. Staffing and training needs
-- Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que si funciona y lo soporta. Se necesitará
+- Cada que se busque instalar el sistema en algún dispositivo nuevo en el ITAM se necesitará que alguien realice las mismas pruebas de estres e indique que si funciona y lo soporta. Se necesitará a alguien encargado de estas pruebas y en este caso será eel Software Developer.
 
 # 15 Responsabilities 
 Who is in charge? This issue includes all areas of the plan.  Here are some examples: § Setting risks. § Selecting features to be tested and not tested. § Setting overall strategy for this level of plan. § Ensuring all required elements are in place for testing. § Providing for resolution of scheduling conflicts, especially, if testing is done on the production system. § Who provides the required training? § Who makes the critical go/no go decisions for items not covered in the test plans?
