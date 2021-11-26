@@ -53,13 +53,13 @@ El propósito de este plan es verificar las funcionalidades que se implementará
 - Resultados: que los resultados desplegados sean acertados y se desplieguen correctamente.
 - Uso del menú: movimiento a través de las distintas pestañas.
 - Base de datos frente a cargas altas de usuarios.
-- 
+
 # 7. Features not to be tested<a name="featurenotest"></a>
 - Funcionamiento de la base de datos.
 - Texto de la pestaña "Acerca de" e índice
 
 # 8. Approach<a name="approach"></a>
-Realizar un testeo gray box para estresar el sistema y ver qué tanto flujo de usuarios permite al mismo tiempo. 
+Realizar un testeo black box para ver si el flujo de los usuarios corresponde con lo que se diseño. Por otro lado, vamos a realizar una prueba para estresar el sistema y ver qué tanto flujo de usuarios permite al mismo tiempo. 
 
 # 9 Item pass/fail Criteria<a name="9"></a>
 Mientras el sistema siga dando servicio será pass, cuando falle un fail.
